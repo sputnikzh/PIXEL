@@ -26,9 +26,8 @@ let colorItems = {
     red: colorbtnRed,
     blue: colorbtnBlue,
     grey: colorbtnGrey,
-
 }
-tools.addEventListener('click', (e)=>{
+tools.addEventListener('click', (e) => {
     for(let colorString of COLORS){
         if(Array.from(e.target.classList).includes(colorString)){
             color = colorString
